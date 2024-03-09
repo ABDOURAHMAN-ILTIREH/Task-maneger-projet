@@ -1,0 +1,11 @@
+.SectionAuth{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.SectionAuth .NavLeft{
+    flex: 1.5;
+}
+.SectionAuth .NavRight{
+    flex: 4;
+}

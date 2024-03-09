@@ -1,0 +1,63 @@
+.NavbarAuth{
+    margin: 25px 35px 5px 45px;
+}
+.NavbarAuth .work_space_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavbarAuth .work_space_btn .title_nav{
+    font-size: 16px;
+    color: #000;
+}
+.icons{
+    font-size: 15px;
+    cursor: pointer;
+}
+.projects_Created{
+    margin-top: 15px;
+}
+.projects_Created .Admin_Workspace{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+.projects_Created .Admin_Workspace .space_cover{
+    display: flex;
+    align-items: center;
+}
+.projects_Created .Admin_Workspace .space_cover .spaceName{
+    font-size: 16px;
+    font-weight: bold;
+    color :#000;
+    margin-left: 10px;
+}
+
+.projects_Created .Admin_Workspace .icons_workSpace{
+    background-color: #40408b;
+    color: white;
+    font-size: 45px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.projects_Created .cover_project_wrapper .inner_activite{
+    margin-top: 15px;
+    display: block;
+}
+.cover_project_wrapper .inner_activite .inner_wrapper{
+    margin-bottom: 5px;
+    padding: 10px 10px 5px 45px;
+    display: flex;
+    align-items: center;
+}
+.cover_project_wrapper .inner_activite .inner_wrapper:hover{
+    cursor: pointer;
+    border-radius: 1px;
+    background-color: #c1c1e8;
+}
+.cover_project_wrapper .inner_activite .inner_wrapper .inner_text{
+    font-size: 16px;
+    color: #000;
+    margin-left: 5px;
+}

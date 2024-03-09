@@ -1,0 +1,166 @@
+.SignIn{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.SignIn .content_form{
+        background-color: #fff;
+        width: 500px;
+        padding: 15px 20px;
+}
+.content_form .title_form{
+    text-align: center;
+}
+.SignIn .content_form h1{
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 500;
+}
+.SignIn .content_form p{
+    font-size: 14px;
+    color: #525151;
+    font-weight: 500;
+}
+        
+.SignIn .content_form .content_form_signIn{
+    width: 100%;
+}
+
+.SignIn .content_form .content_form_signIn .input_row{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+            
+}
+.content_form_signIn .input_row .input_from, .input_from .submit_button{
+    margin: 12px 0px;
+    width: 100%;
+    height: 30px;
+}
+.content_form_signIn .input_row .input_from label{
+    display: block;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 14px;
+}
+.content_form_signIn .input_row .input_from input{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: #000;
+    border: 1px solid #dbdbdb;
+}
+.content_form_signIn .input_row .input_from input:focus{
+    border: 1px solid #000;
+}
+.content_form_signIn .input_row .input_from .submit_button{
+    border: 1px solid #000;
+    background-color: #000;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;               
+}
+         
+    
+.SignIn .content_form .account{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    color:#525151 ;
+    font-size: 14px;
+}
+.SignIn .content_form .account a{
+    color: #000;
+    cursor: pointer;
+}
+    
+.SignIn .content_form .account .error{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(184, 115, 115);
+    padding: 5px 0;
+    border-radius: 5px;
+}
+.SignIn .content_form .account .error p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8a0f0f;
+}
+    
+.SignIn .content_form .forget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SignIn .content_form .forget a{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+.SignIn .content_form .forget &:hover{
+    color: #000;
+    text-decoration: underline;
+}
+    
+
+.SignIn .content_form .or_Auth .text_auth{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;   
+}
+.SignIn .content_form .or_Auth{
+    margin: 25px 10px;
+}
+.SignIn .content_form .auth{
+    margin-top: 10px;
+}
+.SignIn .content_form .auth-button{
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #ebebeb;
+    padding: 3px 0;
+    font-size: 14px;
+    color: #000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+           
+.SignIn .content_form .auth-button span{
+    margin-left: 5px;
+    letter-spacing: -0.5px;
+}
+.SignIn .content_form .auth-button .icon-auth{
+    font-size: 20px;
+}
+        
+@media screen and (max-width: 450px) {
+    .content_form{
+        width: 100% !important;
+        padding: 15px 10px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .content_form{
+        padding: 15px 0px !important;
+    }
+}

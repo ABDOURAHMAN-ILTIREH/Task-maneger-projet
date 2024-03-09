@@ -1,0 +1,97 @@
+.CoverBoards{
+ padding: 25px;
+}
+.CoverBoards .title_coverBoard{
+    font-weight: 500;
+}
+.CoverBoards .cover-Projects-content{
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.CoverBoards .cover-Projects-content .card{
+    width: 400px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-shadow: 5px 2px 5px rgba(0,0,0,0.1);
+}
+.CoverBoards .cover-Projects-content .card .top_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+} 
+.CoverBoards .cover-Projects-content .card .top_title .cover_title{
+    font-weight: 500;
+}
+.card .top_title  span{
+   cursor: pointer;
+   font-size: 20px;
+}
+.card .cover_content{
+    display: block;
+}
+.card .cover_content .task_landing{
+    padding: 10px 5px;
+    background-color: #eee;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.card .cover_content span{
+    cursor: pointer;
+}
+.card .cover_content .add_div{
+    display: flex;
+    align-content: flex-start;
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 5px;
+    width: max-content;
+    border-radius: 5px;
+}
+.card .cover_content span{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.card .cover_content .add_div{
+    font-size: 14px;
+}
+.card .add_task .button{
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid;
+  outline: none;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.card .add_task .addCard{
+  color: white;
+  border: 1px solid #40408b;
+  background-color: #40408b;
+  margin-right: 10px;
+}
+.card .add_task .cancel{
+  color: #000;
+  background-color: #eee;
+  border: 1px solid;
+}
+.card .add_task textarea{
+    resize: none;
+    width: 100%;
+    height: 15vh;
+    background-color: #eee;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+}
+::placeholder{
+    color: #000;
+    font-size: 14px;
+}

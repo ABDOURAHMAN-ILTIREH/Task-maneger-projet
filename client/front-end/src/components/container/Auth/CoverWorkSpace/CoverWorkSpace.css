@@ -1,0 +1,137 @@
+.WorkSpaceCover{
+    margin: 25px 5px 5px 5px;
+}
+
+.WorkSpaceCover .Admin_Workspace{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.WorkSpaceCover .Admin_Workspace .space_cover{
+    display: flex;
+    align-items: center;
+}
+.WorkSpaceCover .Admin_Workspace .space_cover .spaceName{
+    font-size: 16px;
+    font-weight: bold;
+    color :#000;
+    margin-left: 10px;
+}
+
+.WorkSpaceCover .Admin_Workspace .icons_workSpace{
+    background-color: #40408b;
+    color: white;
+    font-size: 45px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.WorkSpaceCover .Auth_User_boards{
+
+}
+.WorkSpaceCover .Auth_User_boards .accout_boards{
+    display: flex;
+    align-items: end;
+    margin: 15px 0;
+}
+.Auth_User_boards .accout_boards .person_icon{
+  font-size: 25px;
+}
+.Auth_User_boards .accout_boards .person_accout{
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+.Auth_User_boards .content_board{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+.content_board .boards_created{
+   text-decoration: none;
+   color: #000;
+}
+.content_board .boards_created .board_title{
+  font-weight: 500;
+  /* text-transform: capitalize; */
+  margin-top: 15px;
+}
+.content_board .boards_created .board_timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_board .boards_created .board_timer span{
+   font-size: 12px;
+}
+
+.Auth_User_boards .content_board .create_new_boards,
+.content_board .boards_created{
+    height: 100px;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 5px;
+}
+.Auth_User_boards .content_board .create_new_boards p{
+    font-size: 12px;
+    text-align: center;
+}
+.Auth_User_boards .content_board .create_new_boards .text_board{
+    margin-top: 25px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* ---------------CreateBoardCart styles starts here-----------------*/
+.CreateBoardCart{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    z-index: 999;
+}
+.CreateBoardCart .boards_wrapper{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 5px 25px 1px #a8a8ba;
+    width: 300px;
+    border-radius: 5px;
+}
+.CreateBoardCart .boards_wrapper .board_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CreateBoardCart .boards_wrapper .board_title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+}
+.CreateBoardCart .boards_wrapper .input_board{
+    width: 100%;
+    padding: 5px 8px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+.CreateBoardCart .boards_wrapper .submit_board{
+    width: 100%;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #40408b;
+    color: white;
+    border: 1px solid #40408b;
+    border-radius: 2px;
+}
+
+
